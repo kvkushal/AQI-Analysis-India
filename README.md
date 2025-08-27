@@ -2,7 +2,13 @@
 
 > Visual analytics of air quality across 25+ Indian cities (2015–2017) using Microsoft Power BI. Interactive dashboards reveal pollutant trends, city-wise risk, and seasonal patterns.
 
-![Dashboard Cover](docs/screenshots/dashboard-1.png)
+![Air Quality Trends](docs/screenshots/AirQualityTrends.png)
+
+![City-wise Comparison](docs/screenshots/City-wiseComparison.png)
+
+![Pollutant Level Analysis](docs/screenshots/PollutantLevelAnalysis.png)
+
+![AQI Insights](docs/screenshots/AQIInsights.png)
 
 ---
 
