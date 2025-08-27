@@ -1,6 +1,6 @@
 # AQI Analysis of Indian Cities (Power BI)
 
-> Visual analytics of air quality across 25+ Indian cities (2015–2017) using Microsoft Power BI. Interactive dashboards reveal pollutant trends, city-wise risk, and seasonal patterns.
+Visual analytics of air quality across 25+ Indian cities (2015–2017) using Microsoft Power BI. Interactive dashboards reveal pollutant trends, city-wise risk, and seasonal patterns.
 
 ![Air Quality Trends](docs/screenshots/AirQualityTrends.png)
 
@@ -30,40 +30,32 @@ This project transforms raw environmental data into actionable insights with Pow
 
 ## 📊 Dashboards & Highlights
 
-### Overall AQI Trends
-![Dashboard 2](docs/screenshots/dashboard-2.png)
-- National monthly AQI trends
-- AQI bucket mix
-- Top polluted cities over time
+### 1. Air Quality Trends
+[View Dashboard](docs/screenshots/AirQualityTrends.png)
+- National AQI patterns over time  
+- Seasonal spikes and dips (winter highs, monsoon lows)  
+- Overall AQI bucket distribution for 2015–2017  
 
-### Pollutant Analysis
-![Dashboard 3](docs/screenshots/dashboard-3.png)
-- PM2.5 vs PM10 scatter
-- NO/NO2/NOx temporal hotspots
-- Seasonal variation (Oct–Feb spikes)
+### 2. City-wise Comparison
+[View Dashboard](docs/screenshots/City-wiseComparison.png)
+- Ranking of cities by average AQI  
+- Regional differences in pollution levels  
+- Identification of top hotspots (Delhi, Gurugram, Patna, Talcher)  
 
-### City Comparisons
-![Dashboard 4](docs/screenshots/dashboard-4.png)
-- Treemap of frequent poor-AQI cities
-- Bubble map by average AQI
-- Heatmap of city-specific monthly severities
+### 3. Pollutant Level Analysis
+[View Dashboard](docs/screenshots/PollutantLevelAnalysis.png)
+- PM2.5 vs PM10 correlation scatter plots  
+- NO/NO2/NOx temporal trends and seasonal peaks  
+- CO and O3 variations across selected cities  
+
+### 4. AQI Insights
+[View Dashboard](docs/screenshots/AQIInsights.png)
+- AQI bucket segmentation (Good/Moderate/Poor/Very Poor)  
+- Heatmaps showing city-specific monthly severity  
+- Key takeaways highlighting pollutant contributions and health risks  
+
 
 > **Key observations:** PM2.5 & PM10 dominate AQI; NOx peaks Oct–Feb; Delhi, Gurugram, Patna, Talcher are hotspots; coastal cities fare better.
-
----
-
-
----
-
-## 🧰 How to Use
-### View the work (no setup)
-1. Open the **PDF** in `/docs` for a concise report.
-2. Browse screenshots in `/docs/screenshots/`.
-
-### Open in Power BI Desktop
-1. Install **Power BI Desktop** (Windows).
-2. Open `AQI Analysis India.pbix`.
-3. Explore pages, slicers, and filters interactively.
 
 ---
 
